@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title> Calendar app </title>
+</head>
+<body>
+    <div class="container">
+        <div class="calendar-app">
+            <!-- Add the navigation buttons -->
+            <div class="calendar-controls">
+                <button id="prev-year"> <i class="bi bi-chevron-double-left"></i> </button>
+                <button id="prev-month"> <i class="bi bi-chevron-left"></i> </button>
+                <span id="month"></span> <span id="year"></span>
+                <button id="next-month"> <i class="bi bi-chevron-right"></i> </button>
+                <button id="next-year"> <i class="bi bi-chevron-double-right"></i> </button>
+            </div>
+            <!-- Add the calendar header and calendar grid -->
+            <div id="calendar-header" class="calendar-header"></div>
+            <div id="calendar-grid"></div>
+        </div>
+    </div>
+
+    <script src="../js/calendar.js"></script>
+
+</body>
+</html>

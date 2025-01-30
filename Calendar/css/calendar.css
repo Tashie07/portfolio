@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+
+.calendar-app {
+    width:100%;
+    height:auto;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 40px 30px 70px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #d5cccc;
+
+}
+
+.calendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+}
+
+.day-header, #calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    padding-top: 10px
+}
+
+.day-header {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%; /* Circular shape */
+    width: 35px; /* Ensure a circular appearance */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centering inside grid cells */
+    cursor: default;
+}
+
+.other-month {
+    padding: 10px;
+    text-align: center;
+    color: #999; /* Brighter orange */
+    border-radius: 50%; /* Circular shape */
+    width: 35px; /* Ensure a circular appearance */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centering inside grid cells */
+    cursor: default;
+}
+
+.day-today {
+    padding: 10px;
+    text-align: center;
+    background-color: #ff5945; /* Brighter orange */
+    border-radius: 50%; /* Circular shape */
+    width: 35px; /* Ensure a circular appearance */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centering inside grid cells */
+    cursor: default;
+}
+
+.day-today:hover {
+    background-color: #fc7a6c;
+}
+
+.day:hover, .other-month:hover {
+    background-color: #f5f5f5;
+}

@@ -25,6 +25,9 @@ A simple **task manager** that enables users to:
    ```sh
    git clone https://github.com/Tashie07/javascript-projects.git
 
+---
+
+## **Screenshots**
 ![Calendar interface](screenshots/calendar.png)
 ![To-do App interface](screenshots/todo.png)
 

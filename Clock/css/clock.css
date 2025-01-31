@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color:  #ffffff;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.clock-face {
+    width:100%;
+    height:auto;
+    max-width: 540px;
+    margin: 200px auto 20px;
+    padding: 50px 50px 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.container h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container h2 {
+    position: absolute; /* allows precise postioning */
+    top: 0;
+    right: 10px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#format {
+    padding-left: 20px;
+}
